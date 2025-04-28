@@ -29,7 +29,7 @@
 
 ## Configuration Management
     Nom : Ansible
-    Numéro de version : Docker:latest
+    Numéro de version : v2.17.11
     Éditeur : Red Hat
     Origine : USA
     Licence : GPLv3
