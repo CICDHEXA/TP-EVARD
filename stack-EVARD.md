@@ -149,7 +149,7 @@
     - [Lien éditeur](https://postgresql.org)
 
 #### Vulnérabilités :
-- **Fuite de données encryptées** : URI encrypt exposant des données sensibles (Score : 6.5)
+- **CVE-2024-20721** : Expiration insuffisante des sessions dans SonarQube - Les sessions restent actives après un changement de mot de passe (Score : 6.5)
 
 ---
 
