@@ -90,9 +90,9 @@
     - Score : 7.1
     - Descriptif : Sessions utilisateurs restent actives après déconnexion dans un cluster
   - **CVE-2024-24824**
-        - Nom : Injection de classes via API
-        - Score : 8.1
-        - Descriptif : Chargement de classes arbitraires via API PUT sur configuration cluster
+    - Nom : Injection de classes via API
+    - Score : 8.1
+    - Descriptif : Chargement de classes arbitraires via API PUT sur configuration cluster
 
 ### SonarQube Community Edition
 - **Nom** : SonarQube
