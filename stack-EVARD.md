@@ -18,9 +18,13 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2025-2443** : XSS via Maven proxy cache headers (Score : 7.5)
+  - Un attaquant peut injecter du code malveillant dans le navigateur via des en-têtes de cache, contournant les protections CSP.
 - **CVE-2025-1908** : Suivi des activités de navigation (Score : 6.8)
+  - Permet à un attaquant de suivre la navigation des utilisateurs et voler des sessions.
 - **CVE-2025-0639** : Déni de service via aperçu des problèmes (Score : 6.5)
+  - Exploitation de l'aperçu pour surcharger le serveur et le rendre indisponible.
 - **CVE-2025-1677** : Déni de service via exportation CI (Score : 6.2)
+  - Envoi de données lourdes lors d'un export CI provoquant un crash.
 
 ---
 
@@ -38,9 +42,13 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2025-25192** : Accès non autorisé au mode débogage (Score : 7.2)
+  - Activation du mode debug par utilisateur à privilèges faibles révélant des infos sensibles.
 - **CVE-2025-23046** : Accès non autorisé via OauthIMAP (Score : 7.1)
+  - Authentification contournée via configuration incorrecte OAuth IMAP.
 - **CVE-2025-24799** : Injection SQL avant authentification (Score : 9.8)
+  - Injection SQL possible sans être connecté via point d'inventaire.
 - **CVE-2025-24801** : Exécution de code post-authentification (Score : 8.7)
+  - Exécution forcée de fichiers PHP après login sur GLPI.
 
 ---
 
@@ -55,7 +63,9 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2023-4237** : Fuite de clés privées dans les logs (Score : 7.5)
+  - Clé privée EC2 accidentellement imprimée dans les logs standards.
 - **CVE-2023-39059** : Exécution de code via variables additionnelles (Score : 8.6)
+  - Injection et exécution de code distant via variables supplémentaires.
 
 ---
 
@@ -78,8 +88,11 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2024-40634** : Déni de service via payload JSON massif (Score : 7.5)
+  - JSON volumineux provoquant une saturation mémoire serveur et arrêt.
 - **CVE-2024-37152** : Fuite de paramètres sensibles (Score : 7.2)
+  - Paramètres exposés publiquement via API de configuration.
 - **CVE-2024-45338** : Déni de service via parsing YAML (Score : 7.8)
+  - YAML malformé ralentissant ou bloquant l'analyse.
 
 ---
 
@@ -104,6 +117,7 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2018-9995** : Bypass authentification DVR (Score : 9.8)
+  - Accès à des flux vidéo DVR sans authentification via faille d'authentification.
 
 ---
 
@@ -130,7 +144,9 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2024-24823** : Réutilisation de sessions après déconnexion (Score : 7.1)
+  - Sessions non invalidées après déconnexion sur cluster multi-nœuds.
 - **CVE-2024-24824** : Injection de classes via API (Score : 8.1)
+  - Chargement de classes arbitraires via cluster_config API.
 
 ---
 
@@ -149,7 +165,8 @@
     - [Lien éditeur](https://postgresql.org)
 
 #### Vulnérabilités :
-- **CVE-2024-20721** : Expiration insuffisante des sessions dans SonarQube - Les sessions restent actives après un changement de mot de passe (Score : 6.5)
+- **CVE-2024-20721** : Expiration insuffisante des sessions (Score : 6.5)
+  - Sessions non révoquées après changement de mot de passe, exposant des risques d'usurpation.
 
 ---
 
@@ -164,4 +181,7 @@
 
 #### Vulnérabilités (CVE) :
 - **CVE-2024-43044** : Lecture de fichiers via connexions agents (Score : 8.8)
+  - Accès à des fichiers sensibles du serveur via connexions agents compromis.
 - **CVE-2024-43045** : Accès aux vues utilisateurs (Score : 6.5)
+  - Utilisateurs faibles peuvent accéder aux vues "Mes Vues" d'autres comptes utilisateurs.
+
