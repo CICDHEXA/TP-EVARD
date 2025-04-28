@@ -184,4 +184,3 @@
   - Accès à des fichiers sensibles du serveur via connexions agents compromis.
 - **CVE-2024-43045** : Accès aux vues utilisateurs (Score : 6.5)
   - Utilisateurs faibles peuvent accéder aux vues "Mes Vues" d'autres comptes utilisateurs.
-
